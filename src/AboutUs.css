@@ -1,0 +1,59 @@
+.about-us-container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 24px 30px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: #f8fafc;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.about-us-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #e2fbd7;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.about-us-description {
+  font-size: 1.15rem;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #c0ebad;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.about-us-content {
+  font-size: 0.98rem;
+  line-height: 1.65;
+  margin-bottom: 14px;
+  color: #f1f5f9;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.about-us-highlight {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: #a3e635;
+  margin-top: 14px;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
